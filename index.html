@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - Facebook</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Facebook - Conecte-se com seus amigos.">
+        <meta name="keyword" content="facebook,rede-social">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <!-- cabeçalho -->
+        <header>
+            <div class="center">
+                <img src="img/facebook-logo.png" alt="Logo">
+                <form>
+                    <div class="form-element">
+                        <p>Email ou telefone</p>
+                        <input type="email" name="email-login">
+                    </div>
+                    <div class="form-element">
+                        <p>Senha</p>
+                        <input type="password" name="senha-login"></br>
+                        <a href="#">Esqueceu a conta?</a>
+                    </div>
+                    <input type="submit" name="acao" value="Entrar">
+                </form>
+                <div class="clear"></div>
+            </div>
+        </header>
+        
+        <!-- formulário de cadastro -->
+        <section class="main">
+            <div class="center">
+                <div class="esquerda">
+                    <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+                    <img src="img/conexao.png" alt="conexoes">
+                </div>
+
+                <div class="direita">
+                    <form>
+                        <h2>Abra uma conta</h2>
+                        <p>É gratuito e sempre será.</p>
+                        <div class="nome">
+                            <input type="text" name="nome" placeholder="Nome" required>
+                        </div>
+                        <div class="sobrenome">
+                            <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                        </div>
+                        <input type="email" name="email-cadastro" placeholder="Celular ou email" required>
+                        <input type="password" name="senha-cadastro" placeholder="Nova senha" required>
+                        <div class="data-de-nascimento">
+                            <p>Data de nascimento</p>
+                            <select name="nascimento-dia" id="seldia"></select>
+                            <select name="nascimento-mes" id="selmes">
+                                <option value="jan">Janeiro</option>
+                                <option value="fev">Fevereiro</option>
+                                <option value="mar">Março</option>
+                                <option value="abr">Abril</option>
+                                <option value="mai">Maio</option>
+                                <option value="jun">Junho</option>
+                                <option value="jul">Julho</option>
+                                <option value="ago">Agosto</option>
+                                <option value="set">Setembro</option>
+                                <option value="out">Outubro</option>
+                                <option value="nov">Novembro</option>
+                                <option value="dez">Dezembro</option>
+                            </select>
+                            <select name="nascimento-ano" id="selano"></select>
+                        </div>
+                        <input type="radio" id="feminino" value="fem" name="genero" checked>
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" id="masculino" value="mas" name="genero">
+                        <label for="masculino">Masculino</label>
+                        <p class="nota">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos política de dados</a> e <a href="#">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                        <input type="submit" value="Cadastre-se">
+                        <p class="nota-2"><a href="#">Criar uma página</a> para uma celebridade, banda ou empresa.</p>
+                    </form>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </section>
+
+        <!-- línguas -->
+        <section class="linguas">
+            <div class="center">
+                <a href="#">Português (BR)</a>
+                <a href="#">English (US)</a>
+                <a href="#">Español</a>
+                <a href="#">Français (France)</a>
+                <a href="#">Italiano</a>
+                <a href="#">Deutsch</a>
+            </div>
+        </section>
+
+        <!-- opções -->
+        <footer class="opcoes">
+            <div class="center">
+                <a href="#">Cadastre-se</a>
+                <a href="#">Entrar</a>
+                <a href="#">Messenger</a>
+                <a href="#">Facebook Lite</a>
+                <a href="#">Celular</a>
+                <a href="#">Encontrar amigos</a>
+                <a href="#">Pessoas</a>
+                <a href="#">Páginas</a>
+                <a href="#">Locais</a>
+                <a href="#">Jogos</a>
+                <a href="#">Locais</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Vídeos</a>
+                <a href="#">Grupos</a>
+                <a href="#">Receitas</a>
+                <a href="#">Esportes</a>
+                <a href="#">Look</a>
+                <a href="#">Moments</a>
+                <a href="#">Instagram</a>
+                <a href="#">Local</a>
+                <a href="#">Sobre</a>
+                <a href="#">Criar anúncio</a>
+                <a href="#">Criar página</a>
+                <a href="#">Desenvolvedores</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Cookies</a>
+                <a href="#">Opções de anúncio</a>
+                <a href="#">Termos</a>
+                <a href="#">Ajuda</a>
+            </div>
+        </footer>
+
+        <div class="ass">
+            <div class="center">
+                <p>Facebook © 2018</p>
+            </div>
+        </div>
+    </body>
+</html>
